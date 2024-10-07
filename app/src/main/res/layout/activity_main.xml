@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_destino"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rbtgDestino"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp">
+
+            <RadioButton
+                android:id="@+id/rbtParis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rbt_paris" />
+
+            <RadioButton
+                android:id="@+id/rbtLondres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbt_londres" />
+
+            <RadioButton
+                android:id="@+id/rbtRoma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbt_roma" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_transporte"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rbtgTransporte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp">
+
+            <RadioButton
+                android:id="@+id/rbtCoche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rbt_coche" />
+
+            <RadioButton
+                android:id="@+id/rbtTren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbt_tren" />
+
+            <RadioButton
+                android:id="@+id/rbtAvion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbt_avion" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/btn_info" />
+
+</LinearLayout>

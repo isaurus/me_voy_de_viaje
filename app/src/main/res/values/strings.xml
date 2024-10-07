@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MeVoyDeViaje</string>
+    <string name="txt_destino">Destino:</string>
+    <string name="txt_transporte">Transporte:</string>
+    <string name="rbt_paris">París</string>
+    <string name="rbt_londres">Londres</string>
+    <string name="rbt_roma">Roma</string>
+    <string name="rbt_coche">Coche</string>
+    <string name="rbt_tren">Tren</string>
+    <string name="rbt_avion">Avión</string>
+    <string name="btn_info">INFORMACIÓN</string>
+</resources>
